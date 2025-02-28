@@ -1,4 +1,5 @@
 import "./App.css";
+import BMICalculator from "./pages/BMICalculator";
 import ColorFlipper from "./pages/ColorFlipper";
 import GroceryListApp from "./pages/GroceryListApp";
 import RandomQuoteGenerator from "./pages/RandomQuoteGenerator";
@@ -16,7 +17,8 @@ function App() {
       {/* <ColorFlipper /> */}
       {/* <TemperatureConverter /> */}
       {/* <ReactCalculator /> */}
-      <GroceryListApp />
+      {/* <GroceryListApp /> */}
+      <BMICalculator />
     </>
   );
 }
