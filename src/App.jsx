@@ -5,6 +5,7 @@ import GroceryListApp from "./pages/GroceryListApp";
 import RandomQuoteGenerator from "./pages/RandomQuoteGenerator";
 import ReactCalculator from "./pages/ReactCalculator";
 import SimpleCounterApp from "./pages/SimpleCounterApp";
+import SimpleFormValidation from "./pages/SimpleFormValidation";
 import TemperatureConverter from "./pages/TemperatureConverter";
 import ToDoList from "./pages/ToDoList";
 
@@ -18,7 +19,8 @@ function App() {
       {/* <TemperatureConverter /> */}
       {/* <ReactCalculator /> */}
       {/* <GroceryListApp /> */}
-      <BMICalculator />
+      {/* <BMICalculator /> */}
+      <SimpleFormValidation />
     </>
   );
 }
