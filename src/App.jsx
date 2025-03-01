@@ -2,6 +2,7 @@ import "./App.css";
 import BMICalculator from "./pages/BMICalculator";
 import ColorFlipper from "./pages/ColorFlipper";
 import GroceryListApp from "./pages/GroceryListApp";
+import Light_DarkModeToggle from "./pages/Light_DarkModeToggle";
 import RandomQuoteGenerator from "./pages/RandomQuoteGenerator";
 import ReactCalculator from "./pages/ReactCalculator";
 import SimpleCounterApp from "./pages/SimpleCounterApp";
@@ -20,7 +21,8 @@ function App() {
       {/* <ReactCalculator /> */}
       {/* <GroceryListApp /> */}
       {/* <BMICalculator /> */}
-      <SimpleFormValidation />
+      {/* <SimpleFormValidation /> */}
+      <Light_DarkModeToggle />
     </>
   );
 }
