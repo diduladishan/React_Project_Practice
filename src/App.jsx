@@ -1,4 +1,5 @@
 import "./App.css";
+import AccordionFAQSection from "./pages/AccordionFAQSection";
 import BMICalculator from "./pages/BMICalculator";
 import ColorFlipper from "./pages/ColorFlipper";
 import GroceryListApp from "./pages/GroceryListApp";
@@ -22,7 +23,8 @@ function App() {
       {/* <GroceryListApp /> */}
       {/* <BMICalculator /> */}
       {/* <SimpleFormValidation /> */}
-      <Light_DarkModeToggle />
+      {/* <Light_DarkModeToggle /> */}
+      <AccordionFAQSection />
     </>
   );
 }
