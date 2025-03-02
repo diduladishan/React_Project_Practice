@@ -2,6 +2,7 @@ import "./App.css";
 import AccordionFAQSection from "./pages/AccordionFAQSection";
 import BMICalculator from "./pages/BMICalculator";
 import ColorFlipper from "./pages/ColorFlipper";
+import ExpenseTracker from "./pages/ExpenseTracker";
 import GroceryListApp from "./pages/GroceryListApp";
 import Light_DarkModeToggle from "./pages/Light_DarkModeToggle";
 import RandomQuoteGenerator from "./pages/RandomQuoteGenerator";
@@ -24,7 +25,8 @@ function App() {
       {/* <BMICalculator /> */}
       {/* <SimpleFormValidation /> */}
       {/* <Light_DarkModeToggle /> */}
-      <AccordionFAQSection />
+      {/* <AccordionFAQSection /> */}
+      <ExpenseTracker />
     </>
   );
 }
