@@ -11,6 +11,7 @@ import SimpleCounterApp from "./pages/SimpleCounterApp";
 import SimpleFormValidation from "./pages/SimpleFormValidation";
 import TemperatureConverter from "./pages/TemperatureConverter";
 import ToDoList from "./pages/ToDoList";
+import ToggleThemeApp from "./pages/useReducer/ToggleThemeApp";
 import UseReducerPractice from "./pages/UseReducerPractice";
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
       {/* <Light_DarkModeToggle /> */}
       {/* <AccordionFAQSection /> */}
       {/* <ExpenseTracker /> */}
-      <UseReducerPractice />
+      {/* <UseReducerPractice /> */}
+      <ToggleThemeApp />
     </>
   );
 }
