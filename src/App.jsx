@@ -10,6 +10,7 @@ import ReactCalculator from "./pages/ReactCalculator";
 import SimpleCounterApp from "./pages/SimpleCounterApp";
 import SimpleFormValidation from "./pages/SimpleFormValidation";
 import TemperatureConverter from "./pages/TemperatureConverter";
+import CounterWithLocalStorage from "./pages/useEffect/CounterWithLocalStorage";
 import TitleUpdater from "./pages/useEffect/TitleUpdater";
 import ToDoList from "./pages/useReducer/TodoList";
 import ToggleThemeApp from "./pages/useReducer/ToggleThemeApp";
@@ -32,7 +33,8 @@ function App() {
       {/* <ExpenseTracker /> */}
       {/* <UseReducerPractice /> */}
       {/* <ToDoList /> */}
-      <TitleUpdater />
+      {/* <TitleUpdater /> */}
+      <CounterWithLocalStorage />
     </>
   );
 }
