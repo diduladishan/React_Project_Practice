@@ -5,17 +5,21 @@ import ColorFlipper from "./pages/ColorFlipper";
 import ExpenseTracker from "./pages/ExpenseTracker";
 import GroceryListApp from "./pages/GroceryListApp";
 import Light_DarkModeToggle from "./pages/Light_DarkModeToggle";
-import RandomQuoteGenerator from "./pages/RandomQuoteGenerator";
+// import RandomQuoteGenerator from "./pages/RandomQuoteGenerator";
 import ReactCalculator from "./pages/ReactCalculator";
 import SimpleCounterApp from "./pages/SimpleCounterApp";
 import SimpleFormValidation from "./pages/SimpleFormValidation";
 import TemperatureConverter from "./pages/TemperatureConverter";
 import CounterWithLocalStorage from "./pages/useEffect/CounterWithLocalStorage";
 import DarkModeToggle from "./pages/useEffect/DarkModeToggle";
+import FetchAndDisplayAPIData from "./pages/useEffect/FetchAndDisplayAPIData";
 import TitleUpdater from "./pages/useEffect/TitleUpdater";
+import WindowResizeListener from "./pages/useEffect/WindowResizeListener";
 import ToDoList from "./pages/useReducer/TodoList";
 import ToggleThemeApp from "./pages/useReducer/ToggleThemeApp";
 import UseReducerPractice from "./pages/UseReducerPractice";
+
+import RandomQuoteGenerator from "./pages/useEffect/RandomQuoteGenerator";
 
 function App() {
   return (
@@ -36,7 +40,10 @@ function App() {
       {/* <ToDoList /> */}
       {/* <TitleUpdater /> */}
       {/* <CounterWithLocalStorage /> */}
-      <DarkModeToggle />
+      {/* <DarkModeToggle /> */}
+      {/* <WindowResizeListener /> */}
+      {/* <FetchAndDisplayAPIData /> */}
+      <RandomQuoteGenerator />
     </>
   );
 }
