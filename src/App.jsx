@@ -20,6 +20,7 @@ import ToggleThemeApp from "./pages/useReducer/ToggleThemeApp";
 import UseReducerPractice from "./pages/UseReducerPractice";
 
 import RandomQuoteGenerator from "./pages/useEffect/RandomQuoteGenerator";
+import SimpleWeatherApp from "./pages/useEffect/SimpleWeatherApp";
 
 function App() {
   return (
@@ -43,7 +44,8 @@ function App() {
       {/* <DarkModeToggle /> */}
       {/* <WindowResizeListener /> */}
       {/* <FetchAndDisplayAPIData /> */}
-      <RandomQuoteGenerator />
+      {/* <RandomQuoteGenerator /> */}
+      <SimpleWeatherApp />
     </>
   );
 }
