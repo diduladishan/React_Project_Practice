@@ -1,17 +1,18 @@
-import React from "react";
-
-import blogPosts from "./data/blogPosts";
 import { Link } from "react-router-dom";
+import ProductPage from "./data/ProductsPage";
 
 const HomePage = () => {
-  console.log(blogPosts);
+  console.log(ProductPage);
   return (
     <div>
       <ul>
-        {blogPosts.map((p) => (
-          <Link key={p.id} to={`blog/${p.id}`}>
-            <li>{p.title}</li>
-          </Link>
+        {ProductPage.map((p) => (
+          <li key={p.id} className="mb-8">
+            {p.name} <span>{`$${p.price}`}</span>
+            <span className="bg-green-700 px-2 py-1.5 ml-3">
+              <Link to={`/product/${p.id}`}>View Details</Link>
+            </span>
+          </li>
         ))}
       </ul>
     </div>
