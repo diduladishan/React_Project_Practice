@@ -1,15 +1,18 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import BlogPost from "./pages/reactRouter/BlogPost";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/reactRouter/HomePage";
+import BlogPost from "./pages/reactRouter/BlogPost";
+import PageNotFound from "./pages/reactRouter/PageNotFound";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
+
         <Route path="/blog/:id" element={<BlogPost />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
