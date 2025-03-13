@@ -1,14 +1,7 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const HomePage = () => {
-  return (
-    <div>
-      <Link to="/dashboard">Dashboard</Link>
-
-      <Link to="/dashboard/profile">S</Link>
-      <Link to="/dashboard/settings">Aaaa</Link>
-    </div>
-  );
+  return <div>HomePage</div>;
 };
 
 export default HomePage;
